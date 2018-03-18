@@ -70,7 +70,7 @@ describe('AppComponent', () => {
 
   function waitForMockHttpResponse() {
     const req = httpMock.expectOne('/api/ping');
-    expect(req.request.method).toBe("GET");
+    expect(req.request.method).toBe('GET');
     req.flush(FAKE_HTTP_RESPONSE);
     fixture.detectChanges();
   }
