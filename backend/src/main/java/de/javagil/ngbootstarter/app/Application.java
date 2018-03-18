@@ -1,4 +1,4 @@
-package com.shekhargulati.app;
+package de.javagil.ngbootstarter.app;
 
 import java.lang.reflect.Method;
 
